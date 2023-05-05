@@ -27,7 +27,7 @@ const sharedProperties = {
       type: 'object',
       default: {},
       properties: {
-        specifiedAccounts: { type: 'string', default: '' },
+        specifiedAccounts: { type: 'string', default: '${${accountsglobal}}' },
       }
     },
     titleFromVariable: {
